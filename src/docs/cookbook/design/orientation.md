@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
 class OrientationList extends StatelessWidget {
   final String title;
 
-  OrientationList({Key key, this.title}) : super(key: key);
+  OrientationList({key, required this.title}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
